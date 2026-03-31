@@ -27,3 +27,8 @@ go.work.sum
 
 # Vendor
 vendor/
+
+# Environment files
+.env
+.env.local
+.env.*.local
