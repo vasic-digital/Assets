@@ -59,3 +59,5 @@ go test ./... -count=1 -race
 | `pkg/event` | Event bus for asset lifecycle notifications |
 | `pkg/defaults` | Default/fallback content with embedded placeholder images |
 | `pkg/manager` | Orchestrator: resolve + store + events + worker pool |
+
+Dependency manifest: `helix-deps.yaml` (§11.4.31) declares this submodule's own-org dependencies (none; leaf module).
